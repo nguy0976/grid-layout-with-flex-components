@@ -23,21 +23,38 @@ body {
 }
 
 .icon {
-  font-size: 4rem;
+  font-size: 4rem; 
 }
 
 .emojis {
   display: grid;
-  grid-template-columns: 30% 30%;
-  gap: 15px;
+  grid-template-columns: 22% 22%;
+  gap: 10px;
 }
 
 .emoji a {
   display: flex;
-  align-items: flex-end;
+}
+
+p {
+  flex-grow: 1;
+}
+
+.emoji {
+  display: flex;
+  flex-direction: column;
 }
 
 .icon {
   display: flex;
-  align-items: center;
+  order: -1;
+  align-self: center;
 }
+
+
+
+
+
+
+
+
